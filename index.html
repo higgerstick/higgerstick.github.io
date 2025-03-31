@@ -1,58 +1,262 @@
-#higgersticks.github.io
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head></head><body>
-    
-        
-        
- 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Best Ski/Snowboard Hills in Canada</title>
+    <style>
+<!-- corbin paterson
+2025,,03,27-30
+this is where all my css codding is the The purpose of CSS is to control the presentation and layout
+of web pages. It separates the structure from the design style -->
 
-    
-    
 
-<h1>All About Me</h1>
 
-<p> My name is corbin, this is my website all about me</p>
+ #image-right-container {
+            width: 48%;
+            text-align: center;
+        }
 
-<h2><em>Hobby/Interests</em></h2>
+        #image-right-container img {
+            width: 100%;
+            border-radius: 8px;
+        }
 
-<img src="https://www.sportscoverdirect.com/wp-content/uploads/2023/12/Snowboarding-off-piste-2-768x512.jpg" alt="snowboarding" width="250"/>
 
-<p>This image is a picture of a <strong>snowboarder</strong>. I really enjoy snowboarding every weekend with friends and family.</p>
+#info { text-align: center;
+}
+        #why {
+            text-align: center;
+        }
 
-<img src="https://thebigmansworld.com/wp-content/uploads/2023/07/sirloin-steak-800x1200.jpg" alt="steak" width="200"/>
+        #tittle {
+            background-color: #1E90FF;
+            text-align: center;
+            padding: 50px 0;
+            color: white;
+            font-size: 3em;
+            margin: 0;
+        }
 
-<p> One of my favourit foods to eat is <strong>steak</strong>.</p>
+        #body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
 
-<h3><strong>If i had to be a bug what bug would i be??</strong></h3>
-<p> i would be a beetle because </p>
+        #image-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 20px 0;
+        }
 
-  <h4><strong>Pros</strong></h4>
-          fly
-          hard shell
-          cool looking
-        
-    
-      
-        <h5><strong>Cons</strong></h5>
-          small
-          have to eat bugs
-          short life
-        
-<script type="module" src="https://s.brightspace.com/lib/bsi/2025.1.238/unbundled/mathjax.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
-						if (document.querySelector('math') || /\$\$|\\\(|\\\[|\\begin{|\\ref{|\\eqref{/.test(document.body.innerHTML)) {
-							document.querySelectorAll('mspace[linebreak="newline"]').forEach(elm => {
-								elm.setAttribute('style', 'display: block; height: 0.5rem;');
-							});
+        #image-container img {
+            width: 45%;
+            height: auto;
+            
+        }
 
-							window.D2L.MathJax.loadMathJax({
-								outputScale: 1.5,
-								renderLatex: false,
-								enableMML3Support: false
-							});
-						}
-					});</script><script type="module" src="https://s.brightspace.com/lib/bsi/2025.1.238/unbundled/prism.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
-					document.querySelectorAll('.d2l-code').forEach(code => {
-						window.D2L.Prism.formatCodeElement(code);
-					});
-				});</script><script type="module" src="https://s.brightspace.com/lib/bsi/2025.1.238/unbundled/embeds.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
-					window.D2L.EmbedRenderer.renderEmbeds(document.body);
-				});</script></body></html>
+        #tittle-table {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 2em;
+        }
+
+        #table-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        #table-container table {
+            width: 60%;
+            margin: 0;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        #table-container th, #table-container td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        #table-container th {
+            background-color: #1E90FF;
+            color: white;
+        }
+
+        #table-container tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #table-container .table-image {
+            width: 30%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        #point-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #point-list li {
+            background-color: #f4f4f4;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        #point-list li img {
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+
+        #point-list .point-text {
+            max-width: 80%;
+        }
+
+        #point-list h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<!-- corbin paterson
+2025,,03,27-30
+this is where all my tiitles and wrighting gose .The purpose of HTML
+ is to structure and organize the content of a webpage. It serves as the base of web pages-->
+
+<body id="body">
+
+    <h1 id="tittle">Best Ski/Snowboard Hills in Canada</h1>
+
+    <div id="image-container">
+        <img src="https://images.unsplash.com/photo-1532124957326-34c5605398?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c2tpfGVufDB8fDB8fHww" alt="Ski/Snowboard Resort 1">
+        <img src="https://plus.unsplash.com/premium_photo-1661868371660-eac62d15361f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8c2tpfGVufDB8fDB8fHww" alt="Ski/Snowboard Resort 2">
+    </div>
+
+    <p id="info">Canada is known for its breathtaking mountains and world-class winter sports destinations.<br>
+    Whether you're a skier, snowboarder, or just someone who enjoys the snowy outdoors,<br> Canada's
+    ski resorts offer something for everyone. From the challenging slopes of Whistler to<br> the scenic
+    beauty of Banff, these top resorts promise thrilling adventures and unforgettable<br> experiences.
+    Join us as we highlight some of the best locations to hit the slopes in Canada!</p>
+
+    <h2 id="tittle-table">Top 5 Best Snowboard Hills in Canada</h2>
+
+    <div id="table-container">
+        <table>
+            <tr>
+                <th>Rank</th>
+                <th>Resort Name</th>
+                <th>Location</th>
+                <th>Notable Features</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Whistler Blackcomb</td>
+                <td>British Columbia</td>
+                <td>Largest ski resort in North America, great snow park, stunning views.</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Banff and Lake Louise</td>
+                <td>Alberta</td>
+                <td>World-class terrain, magnificent mountain scenery, long seasons.</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Revelstoke Mountain Resort</td>
+                <td>British Columbia</td>
+                <td>Steep terrain, deep powder, backcountry access.</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Glen Eden</td>
+                <td>Ontario</td>
+                <td>Great terrain parks, freestyle features, accessible from Toronto.</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Mont Tremblant</td>
+                <td>Quebec</td>
+                <td>Freestyle terrain, alpine riding</td>
+            </tr>
+        </table>
+        <img class="table-image" src="https://scene7.vailresorts.com/is/image/vailresorts/EM_Whistler_map_2018-19_2048x1343?wid=2048&fit=constrain,1&resMode=sharp2" alt="Snowboard Resort Image">
+    </div>
+
+    <h2 id="why">Why is picking the right hill important?</h2>
+
+    <ul id="point-list">
+        <li>
+            <img src="https://media.istockphoto.com/id/153551554/photo/snowboard-jump.jpg?s=612x612&w=0&k=20&c=sDjc7w5RTxsHeX2c7e7BQcwrbi8o2xAg5wDq5OnfQjc=" alt="Skill Level">
+            <div class="point-text">
+                <strong>1. Skill Level Compatibility</strong>
+                <ul>
+                    <li><strong>Beginners:</strong> Look for beginner-friendly slopes with less steep terrain.</li>
+                    <li><strong>Intermediate & Advanced:</strong> Choose hills with steeper inclines and varied terrain for more challenge.</li>
+                </ul>
+            </div>
+        </li>
+
+        <li>
+            <img src="https://media.istockphoto.com/id/178642135/photo/mountains-of-snow.jpg?s=612x612&w=0&k=20&c=91tqfTZAPmVo0EYWqcSbpIayvbiuKYtZaKmdkSpHlv8=" alt="Terrain Variety">
+            <div class="point-text">
+                <strong>2. Terrain Variety</strong>
+                <ul>
+                    <li>Consider the type of terrain available (e.g., terrain parks, groomed slopes, powder, backcountry).</li>
+                </ul>
+            </div>
+        </li>
+
+        <li>
+            <img src="https://media.istockphoto.com/id/1061062604/photo/winter-driving-heavy-snowfall-on-a-country-road-driving-on-it-becomes-dangerous.jpg?s=612x612&w=0&k=20&c=R465gieiDlyxNU7Ya6EvMUiw4ER9hNWN3LMXfMBYTtI=" alt="Safety">
+            <div class="point-text">
+                <strong>3. Safety</strong>
+                <ul>
+                    <li>Well-maintained slopes, clear signage, ski patrol presence, and proper markings for difficult areas.</li>
+                </ul>
+            </div>
+        </li>
+
+        <li>
+            <img src="https://media.istockphoto.com/id/1442507354/vector/weather-forecast-widget-icon-set.jpg?s=612x612&w=0&k=20&c=Q8pbgqeY7eOgpXKKF71AGQfvOX1-oak9OcavxTCLJgw=" alt="Weather">
+            <div class="point-text">
+                <strong>4. Weather Conditions</strong>
+                <ul>
+                    <li>Choose a hill with reliable snow conditions for your preference (powder, packed snow, or artificial snow).</li>
+                </ul>
+            </div>
+        </li>
+
+        <li>
+            <img src="https://media.istockphoto.com/id/1180279584/photo/aerial-people-crowd-on-pedestrian-crosswalk-top-view-background-toned-image.jpg?s=612x612&w=0&k=20&c=0Z7XMcUh4fbAv-OE6iVRS57aS4f8mK0VUMZrW5XSipk=" alt="Crowd and Location">
+            <div class="point-text">
+                <strong>5. Crowd and Location</strong>
+                <ul>
+                    <li>If you prefer less crowded slopes, go for smaller, less popular hills or visit during off-peak times.</li>
+                    <li>Larger resorts are more lively with après-ski activities.</li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+
+
+<div id="image-right-container">
+            <img src="https://images.unsplash.com/photo-1584890131712-18ee8e3ed49c?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c25vd2JvYXJkaW5nfGVufDB8fDB8fHww" alt="Ski/Snowboard Image">
+        </div>
+
+
+ <a href="about.html">About Us</a> |
+        <a href="p">Contact Us</a> |
+</body>
+</html>
